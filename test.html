@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link href="./test.css" rel="stylesheet" />
+    <script src="./test.js"></script>
+</head>
+<body>
+    <div class="tabs">
+        <ul class="tab-links">
+           <li class="active" onclick="tabClick(this,'tab1')"><a href="#tab1">Tab 1</a></li>
+            <li onclick="tabClick(this,'tab2')"><a href="#tab2">Tab 2</a></li>
+            <li onclick="tabClick(this,'tab3')"><a href="#tab3">Tab 3</a></li>
+        </ul>
+        
+        <div class="tab-content">
+            <div id="tab1" class="tabactive">
+                <p>Tab 1</p>
+            </div>
+        <div id="tab2" class="tab">
+                <p>Tab 2</p>
+            </div>
+        <div id="tab3" class="tab">
+                <p>Tab 3</p>
+            </div>
+        </div>
+
+    
+</body>
+</html>

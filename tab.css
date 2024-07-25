@@ -1,0 +1,20 @@
+.tab{
+    display: inline-block;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: gray;
+    margin-right: 2px;
+}
+.tab:hover{
+    background-color: pink;
+}
+.tab-active{
+    background-color: pink;
+}
+.content{
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid gray;
+    background-color: gray;
+
+}
